@@ -26,3 +26,4 @@ $ react-native run-android
 # execute application in ios
 $ react-native run-ios
 ```
+![](screens/loading.gif)
