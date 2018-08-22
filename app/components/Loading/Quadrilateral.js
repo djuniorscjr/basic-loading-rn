@@ -71,6 +71,7 @@ class Quadrilateral extends React.Component<Props> {
 		return Animated.timing(originalValue, {
 			toValue: newValue,
 			duration,
+			useNativeDriver: true,
 		});
 	}
 

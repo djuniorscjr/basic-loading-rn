@@ -74,6 +74,7 @@ class Diamond extends React.Component<Props> {
 		return Animated.timing(originalValue, {
 			toValue: newValue,
 			duration,
+			useNativeDriver: true,
 		});
 	}
 
